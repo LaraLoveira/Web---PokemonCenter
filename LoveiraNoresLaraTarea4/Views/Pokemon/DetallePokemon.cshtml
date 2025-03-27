@@ -1,0 +1,41 @@
+﻿@model List<LoveiraNoresLaraTarea4.Models.Pokemon>
+
+<h2><b>Mi equipo pokemon</b></h2>
+
+@if (!string.IsNullOrEmpty(TempData["Success"] as string))
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (!string.IsNullOrEmpty(TempData["Error"] as string))
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Peso</th>
+            <th>Altura</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pokemon in Model)
+        {
+            <tr>
+                <td>@pokemon.nombre</td>
+                <td>
+                    @string.Join(", ", pokemon.PokemonTipo.Select(pt => pt.Tipo.nombre))
+                </td>
+                <td>@pokemon.peso</td>
+                <td>@pokemon.altura</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div style="text-align: center; margin-top: 20px;">
+    <img src="/recursos/teamwork.jpg" alt="Imagen pokemon" style="width:100%; max-width:600px; margin-top:20px;">
+</div>

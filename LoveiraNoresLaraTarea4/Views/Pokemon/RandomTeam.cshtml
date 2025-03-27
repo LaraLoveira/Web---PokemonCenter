@@ -1,0 +1,48 @@
+﻿@model LoveiraNoresLaraTarea4.Models.EquipoAleatorioViewModel
+
+@{
+    ViewData["Title"] = "Equipo aleatorio -";
+}
+
+<h2><b>Equipo Aleatorio</b></h2>
+
+<h3>Datos sobre el Equipo</h3>
+<ul>
+    <li><strong>Cantidad de Pokemon:</strong> @Model.Cantidad</li>
+    <li><strong>Tipo predominante:</strong> @Model.TipoPredominante</li>
+    <li><strong>Peso medio:</strong> @Model.PesoMedio.ToString("0.00") kg</li>
+    <li><strong>Altura media:</strong> @Model.AlturaMedia.ToString("0.00") m</li>
+</ul>
+
+<h3>Pokemon en el Equipo</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Tipos</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pokemon in Model.Equipo)
+        {
+            <tr>
+                <td>@pokemon.nombre</td>
+                <td>
+                    @string.Join(", ", pokemon.PokemonTipo.Select(pt => pt.Tipo.nombre))
+                </td>
+                <td>@pokemon.peso</td>
+                <td>@pokemon.altura</td>
+                <td>
+                    <a href="@Url.Action("Detalles", "Pokemon", new { id = pokemon.PokemonId })" class="btn btn-info">Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div style="text-align: center; margin-top: 20px;">
+    <img src="/recursos/teamwork-1.jpg" alt="Imagen pokemon." style="width:100%; max-width:600px; margin-top:20px;">
+</div>

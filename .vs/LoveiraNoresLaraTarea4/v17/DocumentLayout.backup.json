@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|c:\\users\\laral\\desktop\\dwes\\loveiranoreslaratarea4\\loveiranoreslaratarea4\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|solutionrelative:loveiranoreslaratarea4\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|c:\\users\\laral\\desktop\\dwes\\loveiranoreslaratarea4\\loveiranoreslaratarea4\\controllers\\combatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|solutionrelative:loveiranoreslaratarea4\\controllers\\combatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|c:\\users\\laral\\desktop\\dwes\\loveiranoreslaratarea4\\loveiranoreslaratarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|solutionrelative:loveiranoreslaratarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|c:\\users\\laral\\desktop\\dwes\\loveiranoreslaratarea4\\loveiranoreslaratarea4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|solutionrelative:loveiranoreslaratarea4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|c:\\users\\laral\\desktop\\dwes\\loveiranoreslaratarea4\\loveiranoreslaratarea4\\models\\context\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F3E588-0561-4F5E-8C2A-491868D49681}|LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4.csproj|solutionrelative:loveiranoreslaratarea4\\models\\context\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\appsettings.json",
+              "RelativeDocumentMoniker": "LoveiraNoresLaraTarea4\\appsettings.json",
+              "ToolTip": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\appsettings.json",
+              "RelativeToolTip": "LoveiraNoresLaraTarea4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T18:23:26.228Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Program.cs",
+              "RelativeDocumentMoniker": "LoveiraNoresLaraTarea4\\Program.cs",
+              "ToolTip": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Program.cs",
+              "RelativeToolTip": "LoveiraNoresLaraTarea4\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:23:27.038Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PokemonContext.cs",
+              "DocumentMoniker": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Models\\Context\\PokemonContext.cs",
+              "RelativeDocumentMoniker": "LoveiraNoresLaraTarea4\\Models\\Context\\PokemonContext.cs",
+              "ToolTip": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Models\\Context\\PokemonContext.cs",
+              "RelativeToolTip": "LoveiraNoresLaraTarea4\\Models\\Context\\PokemonContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T17:01:09.351Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "LoveiraNoresLaraTarea4\\Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "LoveiraNoresLaraTarea4\\Controllers\\PokemonController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:13:35.966Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CombateController.cs",
+              "DocumentMoniker": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Controllers\\CombateController.cs",
+              "RelativeDocumentMoniker": "LoveiraNoresLaraTarea4\\Controllers\\CombateController.cs",
+              "ToolTip": "C:\\Users\\laral\\Desktop\\DWES\\LoveiraNoresLaraTarea4\\LoveiraNoresLaraTarea4\\Controllers\\CombateController.cs",
+              "RelativeToolTip": "LoveiraNoresLaraTarea4\\Controllers\\CombateController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wJYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:18:01.069Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

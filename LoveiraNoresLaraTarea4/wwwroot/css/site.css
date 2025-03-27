@@ -1,0 +1,127 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Pokemon', sans-serif;
+    text-align: center;
+    color: #ff4500; /* Naranja */
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6; /* Azul vibrante */
+    transition: color 1s ease;
+}
+
+    a:hover {
+        color: #ff4500; /* Naranja al pasar el ratón */
+    }
+
+/* menú */
+.menu {
+    background-color: #ffcc00; /* Amarillo brillante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px 0;
+    text-align: center;
+}
+
+    .menu h1 {
+        margin: 0px;
+        font-size: 2.5em;
+    }
+
+    .menu nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        gap: 20px;
+    }
+
+        .menu nav ul li {
+            display: inline;
+        }
+
+            .menu nav ul li a {
+                font-size: 1.2em;
+                padding: 10px 20px;
+                border: 2px solid transparent;
+                border-radius: 10px;
+                background-color: white;
+                transition: all 0.3s ease;
+            }
+
+                .menu nav ul li a:hover {
+                    background-color: #0073e6; /* Azul vibrante */
+                    color: white;
+                    border-color: #333;
+                }
+
+/* Sección de contenido principal */
+.content {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .content h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+/* Estilo para botones */
+button {
+    background-color: #0073e6; /* Azul vibrante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #ff4500; /* Naranja */
+    }
+
+/* Footer */
+footer {
+    background-color: #ffcc00; /* Amarillo brillante */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    footer p {
+        margin: 0;
+        color: #333;
+    }

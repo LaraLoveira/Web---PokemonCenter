@@ -1,0 +1,46 @@
+﻿@model LoveiraNoresLaraTarea4.Models.DetallePokemonViewModel
+
+@{
+    ViewData["Title"] = "Detalles -";
+}
+
+<h1>Detalles de @Model.Pokemon.nombre</h1>
+
+<h2>Características</h2>
+<ul>
+    <li><strong>Peso:</strong> @Model.Pokemon.peso</li>
+    <li><strong>Altura:</strong> @Model.Pokemon.altura</li>
+    <li>
+        <strong>Tipos:</strong>
+        @foreach (var tipo in Model.Tipo)
+        {
+            @tipo.nombre
+        }
+    </li>
+</ul>
+
+<h2>Movimientos</h2>
+<ul>
+    @foreach (var movimiento in Model.Movimientos)
+    {
+        <li>@movimiento.nombre</li>
+    }
+</ul>
+
+<h2>Evoluciones</h2>
+<ul>
+    @foreach (var evolucion in Model.Evoluciones)
+    {
+        <li>@evolucion.nombre</li>
+    }
+</ul>
+
+<h2>Involuciones</h2>
+<ul>
+    @foreach (var involucion in Model.Involuciones)
+    {
+        <li>@involucion.nombre</li>
+    }
+</ul>
+
+<a href="@Url.Action("ListaPokemon", "Pokemon")" class="btn btn-primary">Volver a lista pokemon</a>

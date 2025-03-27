@@ -1,0 +1,26 @@
+﻿@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Combate contra mi equipo pokemon -";
+}
+
+<h1><b>Combate contra mi equipo pokemon</b></h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mi equipo</th>
+            <th>Equipo rival</th>
+            <th>Resultado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var resultado in Model)
+        {
+            <tr>
+                <td>@resultado.MiPokemon.nombre</td>
+                <td>@resultado.Rival.nombre</td>
+                <td>@resultado.Resultado</td>
+            </tr>
+        }
+    </tbody>
+</table>

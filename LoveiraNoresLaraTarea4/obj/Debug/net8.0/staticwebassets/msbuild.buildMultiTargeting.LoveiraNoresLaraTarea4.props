@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LoveiraNoresLaraTarea4.props" />
+</Project>
