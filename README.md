@@ -4,6 +4,6 @@
 
 ###
 
-<p>✨A web about an Pokemon Center. Made with Visual Studio Code using .NET, C# and HTML, CSS✨</p>
+<p>✨A web about a Pokemon Center. Made with Visual Studio Code using: .NET, C# and HTML, CSS✨</p>
 
 ###
